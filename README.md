@@ -34,14 +34,6 @@ Ensure both tic_tac_toe.py and tic_tac_toe_gui.py are in the same directory.
 ### Running the Game Logic Separately
 - Run the game logic script to test the AI without the GUI: python tic_tac_toe.py
 
-## Project Structure
-
-Tic-Tac-Toe-AI-bot/
-│
-├── tic_tac_toe.py          # Contains the game logic
-├── tic_tac_toe_gui.py      # Contains the GUI code
-├── README.md               # Project overview and instructions
-
 ## Game Logic Overview
 The game logic is contained in tic_tac_toe.py and includes the following functions:
 
