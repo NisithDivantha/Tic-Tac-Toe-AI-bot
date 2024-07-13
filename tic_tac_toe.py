@@ -1,5 +1,3 @@
-import random
-
 def initialize_board():
     return [[' ' for _ in range(3)] for _ in range(3)]
 
@@ -20,10 +18,6 @@ def check_winner(board):
     if board[0][2] == board[1][1] == board[2][0] != ' ':
         return board[0][2]
     return None
-
-def random_move(board):
-    empty_cells = [(r, c) for r in range(3) for c in range(3) if board[r][c] == ' ']
-    return random.choice(empty_cells)
 
 def minimax(board, depth, is_maximizing):
     winner = check_winner(board)
@@ -98,3 +92,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
